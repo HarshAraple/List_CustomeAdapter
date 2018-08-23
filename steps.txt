@@ -1,0 +1,13 @@
+create project in android studio.
+design your layout in layout.xml file.
+create a Student(your class name) class and take some variable and create constructor and also create their properties.
+Now you need to create another list_view_layout(layout file) to display data in list.
+In second layout you just display your output.
+Now we create a custome adapter class(ListAdapter.java).
+In, ListAdapter.java file you need to take instance of Content and List<Student> and create constructor.
+And implement all methods.
+So,their four methods 
+(1.) getCount()  (2.) getItem(int position)  (3.) getItemId(int position)  (4.) getView(int position,View convertView,ViewGroup parent)
+Now,you need to go MainActivity.java file declare variables.
+And In Buttton onClickListner you just add value in adapter.
+Run Project.
